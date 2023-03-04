@@ -26,6 +26,7 @@ def line_plot(gdp_per_capita_scan):
     plt.title('GDP per capita for FINLAND NORWAY & SWEDEN')
     plt.xlabel('Year')
     plt.ylabel('GDP Per Capita ( US $)')
+    
     plt.legend()
 
     # Show the plot
@@ -78,7 +79,7 @@ def scatter_plot(gdp_per_capita_scan):
     plt.scatter(gdp_per_capita_scan[country1], gdp_per_capita_scan[country2])
 
     # Add titles and labels
-    plt.title('Comparing GDP of {} vs {} across years'.format(country1, country2))
+    plt.title('Comparing GDP of {} vs {} over the period (2015-2019)'.format(country1, country2))
     plt.xlabel(country1)
     plt.ylabel(country2)
 
